@@ -47,7 +47,7 @@ importers:
         version: 19.0.4(@types/react@19.0.12)
       '@vitejs/plugin-react-swc':
         specifier: ^3.8.1
-        version: 3.8.1(vite@6.2.5(@types/node@22.13.15))
+        version: 3.8.1(vite@6.2.6(@types/node@22.13.15))
       eslint:
         specifier: ^9.23.0
         version: 9.23.0
@@ -73,8 +73,8 @@ importers:
         specifier: ^8.29.0
         version: 8.29.0(eslint@9.23.0)(typescript@5.8.2)
       vite:
-        specifier: ^6.2.5
-        version: 6.2.5(@types/node@22.13.15)
+        specifier: ^6.2.6
+        version: 6.2.6(@types/node@22.13.15)
 
 packages:
 
@@ -1789,8 +1789,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite@6.2.5:
-    resolution: {integrity: sha512-j023J/hCAa4pRIUH6J9HemwYfjB5llR2Ps0CWeikOtdR8+pAURAk0DoJC5/mm9kd+UgdnIy7d6HE4EAvlYhPhA==}
+  vite@6.2.6:
+    resolution: {integrity: sha512-9xpjNl3kR4rVDZgPNdTL0/c6ao4km69a/2ihNQbcANz8RuCOK3hQBmLSJf3bRKVQjVMda+YvizNE8AwvogcPbw==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -2483,10 +2483,10 @@ snapshots:
       '@typescript-eslint/types': 8.29.0
       eslint-visitor-keys: 4.2.0
 
-  '@vitejs/plugin-react-swc@3.8.1(vite@6.2.5(@types/node@22.13.15))':
+  '@vitejs/plugin-react-swc@3.8.1(vite@6.2.6(@types/node@22.13.15))':
     dependencies:
       '@swc/core': 1.11.15
-      vite: 6.2.5(@types/node@22.13.15)
+      vite: 6.2.6(@types/node@22.13.15)
     transitivePeerDependencies:
       - '@swc/helpers'
 
@@ -3772,7 +3772,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite@6.2.5(@types/node@22.13.15):
+  vite@6.2.6(@types/node@22.13.15):
     dependencies:
       esbuild: 0.25.2
       postcss: 8.5.3
