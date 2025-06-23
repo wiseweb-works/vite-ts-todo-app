@@ -1,7 +1,7 @@
 import CheckBoxOutlineBlankOutlinedIcon from '@mui/icons-material/CheckBoxOutlineBlankOutlined';
 import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
 import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
-import { Grid2, IconButton, ListItem, Typography } from '@mui/material';
+import { Grid, IconButton, ListItem, Typography } from '@mui/material';
 
 import { useDeleteTodo } from '../helper/delete';
 import formatDate from '../helper/formatDate';
@@ -29,11 +29,11 @@ const TodoList = () => {
     }
   };
 
-  if (isLoading) {return <p>Loading...</p>;}
-  if (error) {return <p>Error: {error.message}</p>;}
+  if (isLoading) { return <p>Loading...</p>; }
+  if (error) { return <p>Error: {error.message}</p>; }
 
   return (
-    <Grid2
+    <Grid
       container
       spacing={2}
       sx={{
@@ -42,7 +42,7 @@ const TodoList = () => {
         mt: 3,
       }}
     >
-      <Grid2
+      <Grid
         size={{ xs: 12, sm: 10, md: 5 }}
         sx={{
           margin: '1rem',
@@ -90,8 +90,8 @@ const TodoList = () => {
         ) : (
           <Typography>No Task</Typography>
         )}
-      </Grid2>
-      <Grid2
+      </Grid>
+      <Grid
         size={{ xs: 12, sm: 10, md: 5 }}
         sx={{
           margin: '1rem',
@@ -148,8 +148,8 @@ const TodoList = () => {
         ) : (
           <Typography>No Task</Typography>
         )}
-      </Grid2>
-    </Grid2>
+      </Grid>
+    </Grid>
   );
 };
 
